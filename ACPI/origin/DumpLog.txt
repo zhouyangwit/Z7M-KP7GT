@@ -1,0 +1,136 @@
+126:662  21:743  Found UEFI Acpi 2.0 RSDP at 6AB67000
+126:662  0:000  Saving ACPI tables from RSDP 6AB67000 to EFI\CLOVER\ACPI\origin ...
+126:662  0:000   6AB67000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+126:687  0:024    (Xsdt: 6AB670B8, Rsdt: 6AB67028)
+126:687  0:000    6AB670B8: 'XSDT', 'A M I', Rev: 1, Len: 236 -> XSDT.aml
+126:712  0:024    6AB67028: 'RSDT', 'A M I', Rev: 1, Len: 136 -> RSDT.aml
+126:736  0:024    Tables in Xsdt: 25
+126:736  0:000    0. 6AB83F70: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+126:761  0:024        (Dsdt: 6AB67230, Facs: 6AFB1C40, XDsdt: 6AB67230, XFacs: 0)
+126:761  0:000        6AB67230: 'DSDT', 'A M I', Rev: 2, Len: 118077 -> DSDT.aml
+126:789  0:027        6AFB1C40: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+126:813  0:024    1. 6AB84088: 'APIC', 'A M I', Rev: 3, Len: 188 -> APIC.aml
+126:837  0:023    2. 6AB84148: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+126:891  0:054    3. 6AB84190: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+126:916  0:024    4. 6AB841D0: 'SSDT', 'A M I', Rev: 1, Len: 802 -> SSDT-0-A M I.aml
+126:940  0:024    5. 6AB844F8: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+126:964  0:024    6. 6AB84598: 'MSDM', 'A M I', Rev: 3, Len: 85 -> MSDM.aml
+126:989  0:024    7. 6AB845F0: 'SSDT', 'A M I', Rev: 2, Len: 12875 -> SSDT-1-A M I.aml
+127:013  0:024    8. 6AB87840: 'SSDT', 'A M I', Rev: 2, Len: 10865 -> SSDT-2-A M I.aml
+127:037  0:024    9. 6AB8A2B8: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+127:062  0:024    10. 6AB8A2F0: 'SSDT', 'A M I', Rev: 2, Len: 2302 -> SSDT-3-A M I.aml
+127:087  0:024    11. 6AB8ABF0: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+127:111  0:024    12. 6AB8AC38: 'SSDT', 'A M I', Rev: 2, Len: 3806 -> SSDT-4-A M I.aml (Found hidden SSDT 7 pcs)
+127:135  0:024        * 6AB00398: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1617  53 53 44 54 51 06 00 00 02 B5 50 6D 52 65 66 00 Internal length = 1617 -> SSDT-x4_0-Cpu0Ist.aml
+127:159  0:024        * 6A4C1018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x4_1-ApIst.aml
+127:183  0:024        * 6A4C1898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x4_2-Cpu0Cst.aml
+127:208  0:024        * 6A4C1DD8: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 39 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x4_3-ApCst.aml
+127:232  0:024        * 67609DD8: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 AE 50 6D 52 65 66 00 Internal length = 277 -> SSDT-x4_4-Cpu0Hwp.aml
+127:257  0:024        * 6760E298: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 F1 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x4_5-ApHwp.aml
+127:282  0:025        * 67605018: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 3C 50 6D 52 65 66 00 Internal length = 420 -> SSDT-x4_6-HwpLvt.aml
+127:309  0:027  
+127:309  0:000    13. 6AB8BB18: 'LPIT', 'A M I', Rev: 1, Len: 148 -> LPIT.aml
+127:333  0:023    14. 6AB8BBB0: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+127:357  0:023    15. 6AB8BBD8: 'SSDT', 'A M I', Rev: 2, Len: 671 -> SSDT-5-A M I.aml
+127:380  0:023    16. 6AB8BE78: 'SSDT', 'A M I', Rev: 2, Len: 12290 -> SSDT-6-A M I.aml
+127:404  0:023    17. 6AB8EE80: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.aml
+127:429  0:024    18. 6AB8EEB8: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.aml
+127:453  0:024    19. 6AB8EF10: 'SSDT', 'A M I', Rev: 2, Len: 174 -> SSDT-7-A M I.aml
+127:477  0:024    20. 6AB8EFC0: 'DMAR', 'A M I', Rev: 1, Len: 168 -> DMAR.aml
+127:502  0:024    21. 6AB8F068: 'TPM2', 'A M I', Rev: 3, Len: 52 -> TPM2.aml
+127:526  0:024    22. 6AB8F0A0: 'SSDT', 'A M I', Rev: 1, Len: 8285 -> SSDT-8-A M I.aml
+127:551  0:024    23. 6AB91100: 'ASF!', 'A M I', Rev: 32, Len: 160 -> ASF!.aml
+127:575  0:024    24. 6AB911A0: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+127:599  0:023    Tables in Rsdt: 25
+127:599  0:000    0. 6AB671A8: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+127:623  0:024        (Dsdt: 6AB67230, Facs: 6AFB1C00)
+127:623  0:000        6AB67230: 'DSDT', 'A M I', Rev: 2, Len: 118077
+127:625  0:002        6AFB1C00: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+127:649  0:024    1. 6AB84088: 'APIC', 'A M I', Rev: 3, Len: 188
+127:649  0:000    2. 6AB84148: 'FPDT', 'A M I', Rev: 1, Len: 68
+127:649  0:000    3. 6AB84190: 'MCFG', 'A M I', Rev: 1, Len: 60
+127:649  0:000    4. 6AB841D0: 'SSDT', 'A M I', Rev: 1, Len: 802
+127:649  0:000    5. 6AB844F8: 'FIDT', 'A M I', Rev: 1, Len: 156
+127:649  0:000    6. 6AB84598: 'MSDM', 'A M I', Rev: 3, Len: 85
+127:649  0:000    7. 6AB845F0: 'SSDT', 'A M I', Rev: 2, Len: 12875
+127:649  0:000    8. 6AB87840: 'SSDT', 'A M I', Rev: 2, Len: 10865
+127:649  0:000    9. 6AB8A2B8: 'HPET', 'A M I', Rev: 1, Len: 56
+127:649  0:000    10. 6AB8A2F0: 'SSDT', 'A M I', Rev: 2, Len: 2302
+127:649  0:000    11. 6AB8ABF0: 'UEFI', 'A M I', Rev: 1, Len: 66
+127:649  0:000    12. 6AB8AC38: 'SSDT', 'A M I', Rev: 2, Len: 3806
+127:649  0:000    13. 6AB8BB18: 'LPIT', 'A M I', Rev: 1, Len: 148
+127:650  0:000    14. 6AB8BBB0: 'WSMT', 'A M I', Rev: 1, Len: 40
+127:650  0:000    15. 6AB8BBD8: 'SSDT', 'A M I', Rev: 2, Len: 671
+127:650  0:000    16. 6AB8BE78: 'SSDT', 'A M I', Rev: 2, Len: 12290
+127:650  0:000    17. 6AB8EE80: 'DBGP', 'A M I', Rev: 1, Len: 52
+127:650  0:000    18. 6AB8EEB8: 'DBG2', 'A M I', Rev: 0, Len: 84
+127:650  0:000    19. 6AB8EF10: 'SSDT', 'A M I', Rev: 2, Len: 174
+127:650  0:000    20. 6AB8EFC0: 'DMAR', 'A M I', Rev: 1, Len: 168
+127:650  0:000    21. 6AB8F068: 'TPM2', 'A M I', Rev: 3, Len: 52
+127:650  0:000    22. 6AB8F0A0: 'SSDT', 'A M I', Rev: 1, Len: 8285
+127:650  0:000    23. 6AB91100: 'ASF!', 'A M I', Rev: 32, Len: 160
+127:650  0:000    24. 6AB911A0: 'BGRT', 'A M I', Rev: 1, Len: 56
+127:650  0:000  Found UEFI Acpi 1.0 RSDP at 6AB67000
+127:650  0:000  Printing ACPI tables from RSDP 6AB67000 ...
+127:650  0:000   6AB67000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+127:650  0:000    (Xsdt: 6AB670B8, Rsdt: 6AB67028)
+127:650  0:000    6AB670B8: 'XSDT', 'A M I', Rev: 1, Len: 236
+127:650  0:000    6AB67028: 'RSDT', 'A M I', Rev: 1, Len: 136
+127:650  0:000    Tables in Xsdt: 25
+127:650  0:000    0. 6AB83F70: 'FACP', 'A M I', Rev: 6, Len: 276
+127:650  0:000        (Dsdt: 6AB67230, Facs: 6AFB1C40, XDsdt: 6AB67230, XFacs: 0)
+127:650  0:000        6AB67230: 'DSDT', 'A M I', Rev: 2, Len: 118077
+127:652  0:002        6AFB1C40: 'FACS', Ver: 2, Len: 64
+127:652  0:000    1. 6AB84088: 'APIC', 'A M I', Rev: 3, Len: 188
+127:652  0:000    2. 6AB84148: 'FPDT', 'A M I', Rev: 1, Len: 68
+127:652  0:000    3. 6AB84190: 'MCFG', 'A M I', Rev: 1, Len: 60
+127:652  0:000    4. 6AB841D0: 'SSDT', 'A M I', Rev: 1, Len: 802
+127:652  0:000    5. 6AB844F8: 'FIDT', 'A M I', Rev: 1, Len: 156
+127:652  0:000    6. 6AB84598: 'MSDM', 'A M I', Rev: 3, Len: 85
+127:652  0:000    7. 6AB845F0: 'SSDT', 'A M I', Rev: 2, Len: 12875
+127:652  0:000    8. 6AB87840: 'SSDT', 'A M I', Rev: 2, Len: 10865
+127:652  0:000    9. 6AB8A2B8: 'HPET', 'A M I', Rev: 1, Len: 56
+127:652  0:000    10. 6AB8A2F0: 'SSDT', 'A M I', Rev: 2, Len: 2302
+127:652  0:000    11. 6AB8ABF0: 'UEFI', 'A M I', Rev: 1, Len: 66
+127:652  0:000    12. 6AB8AC38: 'SSDT', 'A M I', Rev: 2, Len: 3806
+127:652  0:000    13. 6AB8BB18: 'LPIT', 'A M I', Rev: 1, Len: 148
+127:652  0:000    14. 6AB8BBB0: 'WSMT', 'A M I', Rev: 1, Len: 40
+127:652  0:000    15. 6AB8BBD8: 'SSDT', 'A M I', Rev: 2, Len: 671
+127:652  0:000    16. 6AB8BE78: 'SSDT', 'A M I', Rev: 2, Len: 12290
+127:652  0:000    17. 6AB8EE80: 'DBGP', 'A M I', Rev: 1, Len: 52
+127:652  0:000    18. 6AB8EEB8: 'DBG2', 'A M I', Rev: 0, Len: 84
+127:652  0:000    19. 6AB8EF10: 'SSDT', 'A M I', Rev: 2, Len: 174
+127:652  0:000    20. 6AB8EFC0: 'DMAR', 'A M I', Rev: 1, Len: 168
+127:652  0:000    21. 6AB8F068: 'TPM2', 'A M I', Rev: 3, Len: 52
+127:652  0:000    22. 6AB8F0A0: 'SSDT', 'A M I', Rev: 1, Len: 8285
+127:652  0:000    23. 6AB91100: 'ASF!', 'A M I', Rev: 32, Len: 160
+127:652  0:000    24. 6AB911A0: 'BGRT', 'A M I', Rev: 1, Len: 56
+127:652  0:000    Tables in Rsdt: 25
+127:652  0:000    0. 6AB671A8: 'FACP', 'A M I', Rev: 2, Len: 132
+127:652  0:000        (Dsdt: 6AB67230, Facs: 6AFB1C00)
+127:652  0:000        6AB67230: 'DSDT', 'A M I', Rev: 2, Len: 118077
+127:654  0:002        6AFB1C00: 'FACS', Ver: 0, Len: 64
+127:654  0:000    1. 6AB84088: 'APIC', 'A M I', Rev: 3, Len: 188
+127:654  0:000    2. 6AB84148: 'FPDT', 'A M I', Rev: 1, Len: 68
+127:654  0:000    3. 6AB84190: 'MCFG', 'A M I', Rev: 1, Len: 60
+127:654  0:000    4. 6AB841D0: 'SSDT', 'A M I', Rev: 1, Len: 802
+127:654  0:000    5. 6AB844F8: 'FIDT', 'A M I', Rev: 1, Len: 156
+127:654  0:000    6. 6AB84598: 'MSDM', 'A M I', Rev: 3, Len: 85
+127:654  0:000    7. 6AB845F0: 'SSDT', 'A M I', Rev: 2, Len: 12875
+127:654  0:000    8. 6AB87840: 'SSDT', 'A M I', Rev: 2, Len: 10865
+127:654  0:000    9. 6AB8A2B8: 'HPET', 'A M I', Rev: 1, Len: 56
+127:654  0:000    10. 6AB8A2F0: 'SSDT', 'A M I', Rev: 2, Len: 2302
+127:654  0:000    11. 6AB8ABF0: 'UEFI', 'A M I', Rev: 1, Len: 66
+127:654  0:000    12. 6AB8AC38: 'SSDT', 'A M I', Rev: 2, Len: 3806
+127:654  0:000    13. 6AB8BB18: 'LPIT', 'A M I', Rev: 1, Len: 148
+127:654  0:000    14. 6AB8BBB0: 'WSMT', 'A M I', Rev: 1, Len: 40
+127:654  0:000    15. 6AB8BBD8: 'SSDT', 'A M I', Rev: 2, Len: 671
+127:654  0:000    16. 6AB8BE78: 'SSDT', 'A M I', Rev: 2, Len: 12290
+127:654  0:000    17. 6AB8EE80: 'DBGP', 'A M I', Rev: 1, Len: 52
+127:654  0:000    18. 6AB8EEB8: 'DBG2', 'A M I', Rev: 0, Len: 84
+127:654  0:000    19. 6AB8EF10: 'SSDT', 'A M I', Rev: 2, Len: 174
+127:654  0:000    20. 6AB8EFC0: 'DMAR', 'A M I', Rev: 1, Len: 168
+127:654  0:000    21. 6AB8F068: 'TPM2', 'A M I', Rev: 3, Len: 52
+127:654  0:000    22. 6AB8F0A0: 'SSDT', 'A M I', Rev: 1, Len: 8285
+127:654  0:000    23. 6AB91100: 'ASF!', 'A M I', Rev: 32, Len: 160
+127:654  0:000    24. 6AB911A0: 'BGRT', 'A M I', Rev: 1, Len: 56
